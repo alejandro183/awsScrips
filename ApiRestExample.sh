@@ -10,8 +10,8 @@ echo "Downloading the mongo Image for Docker"
 sudo service docker start
 docker pull mongo
 
-docker create -it --name MongoTest -p 5000:27017 mongo
-docker start MongoTest
+sudo docker create -it --name MongoTest -p 5000:27017 mongo
+sudo docker start MongoTest
 echo "MongoDB running on Docker in port 5000"
 
 echo "Setting up the API rest env"
