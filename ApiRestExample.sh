@@ -15,7 +15,7 @@ sudo docker start MongoTest
 echo "MongoDB running on Docker in port 5000"
 
 echo "Setting up the API rest env"
-pip3 install pipenv
+sudo pip3 install pipenv
 pipenv shell
 
 pip install flask
