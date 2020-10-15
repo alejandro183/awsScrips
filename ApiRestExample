@@ -1,8 +1,0 @@
-#!/bin/sh
-echo "Installing Utils and Environment"
-sudo yum upgrade -y
-sudo yum install docker python3 git -y
-
-
-
-echo "Setting up the API rest env"
