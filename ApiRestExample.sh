@@ -10,4 +10,11 @@ echo "Downloading the mongo Image for Docker"
 sudo service docker start
 docker pull mongo
 
+echo "Setting up the API rest env"
+pip3 install pipenv
+pipenv shell
+
+pip install flask
+pip install pymongo
+
 echo "Done!"
