@@ -7,6 +7,7 @@ echo "Downloading the project"
 git clone https://github.com/alejandro183/pythonApi.git
 
 echo "Downloading the mongo Image for Docker"
+sudo service docker start
 docker pull mongo
 
 echo "Done!"
