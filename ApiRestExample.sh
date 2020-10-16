@@ -1,7 +1,8 @@
 #!/bin/sh
 echo "Installing Utils and Environment"
 sudo yum upgrade -y
-sudo yum install docker python3 git -y
+sudo yum install python3 git -y
+sudo amazon-linux-extras install docker
 
 echo "Downloading the project"
 git clone https://github.com/alejandro183/pythonApi.git
