@@ -16,9 +16,5 @@ echo "MongoDB running on Docker in port 5000"
 
 echo "Setting up the API rest env"
 sudo pip3 install pipenv
-pipenv shell
-
-pip install flask
-pip install pymongo
 
 echo "Done!"
